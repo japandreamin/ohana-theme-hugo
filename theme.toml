@@ -1,0 +1,12 @@
+name = "Ohana Theme"
+license = "MIT"
+licenselink = "https://github.com/japandreamin/ohana-theme-hugo/LICENSE"
+description = "A theme for a Japan Dreamin'"
+homepage = "https://github.com/japandreamin/ohana-theme-hugo"
+tags = ["conference"]
+features =  ["conference", "responsive", "l10n", "google-analytics"]
+min_version = "0.50"
+
+[author]
+  name = "Japan Dreamin'"
+  homepage = "//github.com/japandreamin"

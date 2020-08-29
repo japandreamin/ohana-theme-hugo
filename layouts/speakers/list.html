@@ -1,0 +1,15 @@
+{{ define "main" }}
+
+{{ .Content }}
+
+<section>
+	<h2>Speakers</h2>
+	<ul class="speakers shuffle">
+		{{ $speakers := where .Site.AllPages ".Section" "speakers" }}
+		{{ range where $speakers ".Kind" "page" }}
+		<li>{{ partial "speaker.html" . }}</li>
+		{{ end }}
+	</ul>
+</section>
+
+{{ end }}

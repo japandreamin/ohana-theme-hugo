@@ -1,0 +1,29 @@
+
+.hero {
+  h1 {
+    padding: 2rem var(--container-margin);
+    /*padding-left: 0;*/
+    margin: 0 auto;
+    max-width: var(--theJdrSize);
+  }
+
+  .description {
+    padding: 2rem var(--container-margin);
+    background: var(--color-hero);
+    border-top: thin solid var(--darken-1);
+    border-bottom: thin solid var(--darken-1);
+  }
+
+  .description > div {
+    margin: auto;
+    max-width: var(--theJdrSize);
+  }
+
+  a {
+    color: var(--primary);
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+}

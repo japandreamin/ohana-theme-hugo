@@ -1,0 +1,77 @@
+##########
+# Header #
+##########
+
+[language_switch]
+other = "Switch to"
+
+########
+# Home #
+########
+
+[home_tickets_action]
+other = "チケットを購入する"
+
+[home_tickets_soldout]
+other = "Sold Out"
+
+[home_tickets_close]
+other = "Not available"
+
+[home_location_direction]
+other = "Direction"
+
+##########
+# Footer #
+##########
+
+[footer_share]
+other = "Share"
+
+[facebook_share_label]
+other = "Share on Facebook"
+
+[twitter_share_text]
+other = "日本のSalesforce TraiblazerによるTrailblazerのためのコミュニティカンファレンス @japandreamin に参加しよう！ #JapanDreamin"
+
+[twitter_share_label]
+other = "Share on Twitter"
+
+[footer_follow_blog]
+other = "Follow our"
+
+[footer_follow_blog_blog]
+other = "blog"
+
+[footer_follow_us]
+other = "Follow us"
+
+[footer_about]
+other = "About"
+
+[footer_previous_edition]
+other = "過去のイベント"
+
+[footer_become_partners]
+other = "Become partner"
+
+[footer_become_partners_label]
+other = "Partnership Proposition"
+
+[footer_coc]
+other = "行動規範 (Code of Conduct)"
+
+[footer_pp]
+other = "プライバシーポリシー"
+
+################
+# Subscription #
+################
+[newsletter]
+other = "Newsletter"
+
+[subscribe_notice]
+other = "No spam, only the latest news and updates!"
+
+[subscribe_action]
+other = "Follow us"

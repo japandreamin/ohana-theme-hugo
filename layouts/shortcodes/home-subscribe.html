@@ -1,0 +1,12 @@
+{{ $_hugo_config := `{ "version": 1 }` }}
+<section class="subscribe {{ .Get "class" }}">
+	<div class="inner">
+		{{ .Inner }}
+	</div>
+	
+	<a href="{{ .Site.Params.twitterUrl }}"
+	   class="btn primary" rel="noreferrer" target="_blank">
+		{{ partial "icon.html" "twitter" }}
+		{{ i18n "subscribe_action" }}
+	</a>
+</section>
