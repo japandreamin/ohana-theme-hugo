@@ -1,9 +1,12 @@
 {{- if (eq .name "facebook") -}}
-<a href="https://www.facebook.com/sharer.php?u={{ $.Site.BaseURL }}"
-  class="social" rel="noreferrer" target="_blank">
+<div class="fb-share-button">
+<a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.japandreamin.com&amp;&t=Japan Dreamin'"
+  onclick="javascript:window.open(this.href, '_blank', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=800,width=600');return false;"
+  class="social">
 	{{ partial "icon.html" .name }}
 	{{- i18n "facebook_share_label" -}}
 </a>
+</div>
 {{- else if (eq .name "twitter") -}}
 {{ $text := i18n "twitter_share_text" }}
 <a href="https://twitter.com/share?url={{ .url }}&text={{ $text }}"
