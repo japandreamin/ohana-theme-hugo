@@ -4,6 +4,13 @@
 
 <body class="{{ .Kind }} {{ replace .RelPermalink "en/" "" | anchorize }} {{ .Section }}">
 
+{{ if .Site.Params.googleTagManager }}	
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ .Site.Params.googleTagManager }}"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+{{ end }}
+
 {{ readFile "themes/ohana-theme-hugo/static/icons.svg" | safeHTML }}
 
 {{ block "header" . }}
