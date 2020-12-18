@@ -46,10 +46,12 @@
 
 <section class="speaker">
 
+	{{ if .Content }}
 	<header>
 		<h3>{{ .Page.Params.city }}</h3>
 		<div class="speaker-company">{{ .Page.Params.company }}</div>
 	</header>
+	{{ end }}
 
 	<div class="bio">
 		{{ .Content }}
