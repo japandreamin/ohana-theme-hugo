@@ -5,16 +5,16 @@
   margin-right: auto;
 
   .complexity::before {
-    content: 'Level : ';
+    /* content: 'Level : ';*/
   }
 
   .type::before {
-    content: 'Type : ';
+    /* content: 'Type : '; */
   }
 
   .type::after {
     font-weight: 100;
-    content: ' (' var(--duration, '') ' min.)';
+    content: var(--duration, '') ' min.';
   }
 
   .speakers {
