@@ -4,8 +4,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 	<meta name="HandheldFriendly" content="True">
 	<meta name="MobileOptimized" content="320">
-	<meta name="og:image" content="{{  .Site.Params.logos.ogp }}">
-	<meta name="twitter:image" content="{{  .Site.Params.logos.ogp }}">
 	<meta name="description" content="{{ .Site.Params.description }}">
 
 	{{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production") }}
