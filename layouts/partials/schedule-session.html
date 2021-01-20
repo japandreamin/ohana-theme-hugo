@@ -1,8 +1,4 @@
-{{ if not (in .Params.tags "sponsor") }}
 <a href="{{ .Permalink }}">
-{{ else }}
-<a href="">
-{{ end}}
 	<h4 title="{{ .Title }}">
 		{{ .Title }}
 		<span class="language {{ anchorize .Params.language }}"></span>
