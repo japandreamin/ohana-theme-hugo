@@ -272,6 +272,10 @@
         z-index: 0;
       }
 
+      &.tag-keynote-all, &.format-demojam {
+        grid-column: 2 / 6;
+      }
+
       &.tag-pause-single {
         z-index: 0;
       }
