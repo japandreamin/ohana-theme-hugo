@@ -2,8 +2,9 @@
 {{ $imgLabel := .Get "imgLabel" }}
 {{ $logo := .Site.Params.logos.jumbo }}
 <div class="jumbo">
-	<div class="jumbo-cover" style="background-image: url('{{ .Get "img" }}')" {{ if $imgLabel }}aria-label="{{ $imgLabel }}"{{ end }}></div>
-	<img id="jumbo-img" src="{{ .Get "img" }}" />
+	<!-- <div class="jumbo-cover" style="background-image: url('{{ .Get "img" }}')" {{ if $imgLabel }}aria-label="{{ $imgLabel }}"{{ end }}></div> -->
+	<!-- <img id="jumbo-img" src="{{ .Get "img" }}" /> -->
+	<video id="jumbo-video" src="/images/backgrounds/JapanDreamin2024.mp4" autoplay muted loop></video>
 	<div id="jumbo-overlay" class="show"></div>
 	<div class="inner-wrapper">
 		{{ if $logo }}
